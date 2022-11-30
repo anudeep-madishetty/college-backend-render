@@ -1,0 +1,34 @@
+GET http://localhost:8080/students/all
+
+###
+
+POST http://localhost:8080/students/add
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name":"anudeep",
+    "age":22,
+     "rollNumber":"23432",
+      "email":"anudeep@gmail.com",
+       "gender":"male"
+}
+###
+
+POST http://localhost:8080/professors/add
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name":"Anudeeep",
+    "age":22,
+     "department":"ECE",
+      "email":"krishna@gmail.com",
+       "gender":"male"
+}
+
+###
+GET http://localhost:8080/professors/all
+
+###
+DELETE http://localhost:8080/students/delete/aldjf
